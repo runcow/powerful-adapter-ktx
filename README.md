@@ -1,6 +1,5 @@
 # powerful-adapter-ktx
-## A powerful adapter for RecyclerView written by kotlin
-## 一个万能的RecyclerView adapter，轻松实现多itemViewType界面
+## 一个万能的RecyclerView adapter，轻松实现多itemViewType界面\A powerful adapter for RecyclerView written by kotlin
 ### 第一步：创建dto、holder（有几个itemViewType就创建几组 dto & holder）
 ```kotlin
     class ADto(s: String) : BaseDto<String>(s) {
